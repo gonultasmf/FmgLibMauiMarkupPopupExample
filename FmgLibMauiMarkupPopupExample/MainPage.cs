@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-
 using CommunityToolkit.Maui.Views;
 
 namespace FmgLibMauiMarkupPopupExample;
@@ -33,7 +32,7 @@ public partial class MainPage : ContentPage, IFmgLibHotReload
                         .SemanticHeadingLevel(SemanticHeadingLevel.Level1),
 
                         new Button()
-                        .Text("Click me")
+                        .Text("Open Popup")
                         .CenterHorizontal()
                         .OnClicked(OnCounterClicked)
                         .SemanticHint("Counts the number of times you click")

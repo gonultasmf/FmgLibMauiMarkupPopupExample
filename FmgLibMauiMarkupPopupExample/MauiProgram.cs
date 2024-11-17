@@ -1,6 +1,5 @@
 ﻿using CommunityToolkit.Maui;
 using CommunityToolkit.Maui.Views;
-
 using Microsoft.Extensions.Logging;
 
 namespace FmgLibMauiMarkupPopupExample;

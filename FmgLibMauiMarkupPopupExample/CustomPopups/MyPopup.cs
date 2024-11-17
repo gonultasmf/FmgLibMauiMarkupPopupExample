@@ -1,5 +1,4 @@
 ﻿using CommunityToolkit.Maui.Views;
-
 using Microsoft.Maui.Controls.Shapes;
 
 namespace FmgLibMauiMarkupPopupExample;
@@ -15,7 +14,7 @@ public partial class MyPopup : Popup
             new Grid()
             .Children(
                 new Border()
-                .BackgroundColor(LightGray)
+                .BackgroundColor(Gray)
                 .Stroke(DarkGray)
                 .StrokeThickness(2)
                 .StrokeShape(new RoundRectangle().CornerRadius(25))
